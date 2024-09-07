@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width">
+        <title>
+            ToDo App
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <center>
+    <body>
+    <h1>To-Do App</h1>
+    <p>Never forget the works for the day</p>
+    
+    <div id="todos">
+        
+        <div id="todo-1" style="display: flex;justify-content: space-between;">
+            <h4>1. Wakeup at 5am</h4>
+            <button onclick="deleteTodo(1)">Delete</button>
+        </div>
+        
+        <div id="todo-2" style="display: flex;justify-content: space-between;">
+            <h4>2. Workout</h4>
+            <button onclick="deleteTodo(2)">Delete</button>
+        </div>
+    </div>
+    <br>
+          <div>
+            <input  id="inp" type="text">
+            <button id ="add" onclick="addTodo()">Add Todo</button>
+          </div>  
+        
+    <script src="script.js">
+    </script>
+    </body>
+    </center>
+</html>
