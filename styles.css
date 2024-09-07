@@ -56,3 +56,30 @@ div{
     margin-top: 5px;
 
 }
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .todo-item h4 {
+        font-size: 1em;
+    }
+
+    .input-section {
+        flex-direction: column;
+    }
+
+    #inp, #add {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
