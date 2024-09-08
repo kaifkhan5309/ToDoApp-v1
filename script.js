@@ -1,4 +1,4 @@
-let currentIndex = 3;
+let currentIndex = 1;
 
 function addTodo(){
   const InputElement = document.getElementById("inp");
